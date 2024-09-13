@@ -1,11 +1,18 @@
 # Quartus-Project
 **This project was made for FPGA - DE0**  
+This project was made using Quartus schematic design and SystemVerilog.  
 Quartus Project implementing a system which uses different switches (SW) to activate various components : Stopwatch, Timer, Clock, MiniGame, Calculator.  
 Each component is operated through a set of buttons that allow control over starting, stopping, and resetting functions.  
-This project was made using Quartus schematic design and SystemVerilog.
 
 # Project Overview
 This project implements a multi-functional digital system designed to perform various tasks such as timing, calculating, and simple gaming. The system consists of five main components: a stopwatch, a timer, a clock, a mini-game, and a calculator. Each component can be activated using dedicated switches, and controlled through buttons on the board. The project is written in SystemVerilog and provides a visual interface using LEDs and seven segments to display different states and results.
+
+# Usage Instructions
+
+  * Open and extract the .qar file using Quartus and load it into your board.
+  * Use the switches (SW) to activate the desired component.
+  * Use the buttons (button0, button1, button2) to interact with each component according to the controls specified below.
+  * View outputs and results using the LEDs (LEDG) and the Seven Segments.
 
 # Components Overview
 
@@ -98,13 +105,6 @@ First an operation is needed to be selected by its number, than the 1st number, 
         Reset the calculator with button0.  
 
 **Note:** The calculator functionality is written in SystemVerilog.
-
-# Usage Instructions
-
-  * Open and extract the .qar file using Quartus and load it into your board.
-  * Use the switches (SW) to activate the desired component.
-  * Use the buttons (button0, button1, button2) to interact with each component according to the controls specified above.
-  * View outputs and results using the LEDs (LEDG) and the Seven Segments.
 
 # Requirements
 
